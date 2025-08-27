@@ -39,7 +39,7 @@ export const CatalogDefaultLayoutView: FC<CatalogLayoutProps> = props =>
                                 {offerLocalization.name}
                             </span>
                             <div className="flex flex-col justify-between gap-1">
-                                <div className="flex justify-end">
+                                <div className="flex justify-end items-center">
                                     <CatalogPriceDisplayWidget />
                                 </div>
                                 <CatalogPurchaseWidgetView />
