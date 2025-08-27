@@ -26,7 +26,7 @@ export const CatalogPriceDisplayWidget: FC<{
             { (currentOffer.priceInCredits > 0) &&
                 <NitroPriceBadge type={ -1 } amount={ (currentOffer.priceInCredits * quantity) } /> }
             { separator && (currentOffer.priceInCredits > 0) && (currentOffer.priceInActivityPoints > 0) &&
-                <FaPlus className="fa-icon" color="black" size="xs" /> }
+                <FaPlus className="fa-icon text-xs text-black" /> }
             { (currentOffer.priceInActivityPoints > 0) &&
                 <NitroPriceBadge type={ currentOffer.activityPointType } amount={ (currentOffer.priceInActivityPoints * quantity) } /> }
         </>
